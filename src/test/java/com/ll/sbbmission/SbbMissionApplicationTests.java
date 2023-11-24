@@ -28,7 +28,7 @@ class SbbApplicationTests {
         assertTrue(oq.isPresent());
         Question q = oq.get();
 
-        List<Answer> answerList = q.getAnswersList();
+        List<Answer> answerList = q.getAnswerList();
 
 
         assertEquals(1, answerList.size());
